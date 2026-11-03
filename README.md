@@ -3,7 +3,7 @@
 Code, pre-specified protocols and per-run results for the paper
 **"Clean Before You Impute: Outliers Corrupt Iterative Imputation in Incomplete Tabular Data."**
 
-> Archived version: DOI `10.5281/zenodo.XXXXXXX` (added after the first Zenodo release)
+> Archived version: DOI `10.5281/zenodo.23911674` (added after the first Zenodo release)
 
 ## What is here
 
