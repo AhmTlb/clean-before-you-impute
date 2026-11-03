@@ -1,0 +1,47 @@
+contrast,outliers,family,n,mean,share_positive,p_two_sided
+order with mean imputation,symmetric,LogReg,39,0.015,0.538,0.809
+oracle_row - itd (iterative),symmetric,LogReg,39,0.692,0.846,0.0
+cell - dti (iterative),symmetric,LogReg,39,0.791,0.615,0.014
+cell - dti (mean),symmetric,LogReg,39,0.641,0.564,0.117
+oracle_cell - oracle_row (iterative),symmetric,LogReg,39,0.313,0.718,0.0
+order with mean imputation,one-sided,LogReg,39,-0.021,0.385,0.38
+oracle_row - itd (iterative),one-sided,LogReg,39,0.96,0.718,0.001
+cell - dti (iterative),one-sided,LogReg,39,0.655,0.615,0.027
+cell - dti (mean),one-sided,LogReg,39,0.599,0.513,0.154
+oracle_cell - oracle_row (iterative),one-sided,LogReg,39,0.469,0.718,0.001
+order with mean imputation,symmetric,KNN,39,0.05,0.385,0.715
+oracle_row - itd (iterative),symmetric,KNN,39,0.838,0.846,0.0
+cell - dti (iterative),symmetric,KNN,39,-0.392,0.462,0.259
+cell - dti (mean),symmetric,KNN,39,-0.347,0.436,0.219
+oracle_cell - oracle_row (iterative),symmetric,KNN,39,0.148,0.564,0.127
+order with mean imputation,one-sided,KNN,39,-0.559,0.231,0.001
+oracle_row - itd (iterative),one-sided,KNN,39,1.155,0.667,0.001
+cell - dti (iterative),one-sided,KNN,39,0.146,0.41,0.799
+cell - dti (mean),one-sided,KNN,39,-0.368,0.436,0.265
+oracle_cell - oracle_row (iterative),one-sided,KNN,39,0.405,0.641,0.004
+order with mean imputation,symmetric,RandomForest,39,-0.029,0.513,0.82
+oracle_row - itd (iterative),symmetric,RandomForest,39,0.492,0.795,0.0
+cell - dti (iterative),symmetric,RandomForest,39,-0.144,0.564,0.918
+cell - dti (mean),symmetric,RandomForest,39,-0.118,0.59,0.512
+oracle_cell - oracle_row (iterative),symmetric,RandomForest,39,0.238,0.667,0.007
+order with mean imputation,one-sided,RandomForest,39,-0.138,0.487,0.521
+oracle_row - itd (iterative),one-sided,RandomForest,39,1.127,0.897,0.0
+cell - dti (iterative),one-sided,RandomForest,39,-0.129,0.59,0.777
+cell - dti (mean),one-sided,RandomForest,39,-0.228,0.436,0.485
+oracle_cell - oracle_row (iterative),one-sided,RandomForest,39,0.253,0.59,0.049
+oracle_row gain (iter),symmetric,RandomForest,39,0.134,0.564,0.309
+oracle_row gain (mean),symmetric,RandomForest,39,-0.273,0.359,0.058
+oracle_row gain (native),symmetric,RandomForest,39,-0.285,0.256,0.002
+order with mean imputation,symmetric,HistGB,39,0.047,0.513,0.38
+oracle_row - itd (iterative),symmetric,HistGB,39,0.673,0.769,0.0
+cell - dti (iterative),symmetric,HistGB,39,-0.138,0.513,0.788
+cell - dti (mean),symmetric,HistGB,39,-0.222,0.564,0.896
+oracle_cell - oracle_row (iterative),symmetric,HistGB,39,0.24,0.744,0.009
+order with mean imputation,one-sided,HistGB,39,0.088,0.538,0.464
+oracle_row - itd (iterative),one-sided,HistGB,39,1.332,0.872,0.0
+cell - dti (iterative),one-sided,HistGB,39,-0.15,0.564,0.852
+cell - dti (mean),one-sided,HistGB,39,-0.084,0.513,0.874
+oracle_cell - oracle_row (iterative),one-sided,HistGB,39,0.137,0.641,0.225
+oracle_row gain (iter),symmetric,HistGB,39,0.69,0.846,0.0
+oracle_row gain (mean),symmetric,HistGB,39,-0.085,0.359,0.185
+oracle_row gain (native),symmetric,HistGB,39,0.157,0.564,0.085

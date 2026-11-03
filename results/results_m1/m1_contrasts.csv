@@ -1,0 +1,225 @@
+contrast,condition,family,imputer,n,mean,share_positive,p_two_sided
+cells vs rows: cell - dti,gross|complete|0,HistGB,iter,20,0.043,0.6,0.401
+cells vs rows: cell - dti,gross|MCAR|0.1,HistGB,iter,20,-0.225,0.4,0.571
+cells vs rows: cell - dti,gross|MCAR|0.3,HistGB,iter,20,-0.322,0.5,0.784
+cells vs rows: cell - dti,gross|MAR|0.1,HistGB,iter,20,0.033,0.45,0.911
+cells vs rows: cell - dti,gross|MAR|0.3,HistGB,iter,20,-0.18,0.45,0.756
+cells vs rows: cell - dti,gross|MNAR|0.1,HistGB,iter,20,0.146,0.5,0.701
+cells vs rows: cell - dti,gross|MNAR|0.3,HistGB,iter,20,-0.143,0.5,0.841
+cells vs rows: cell - dti,gross|MNARobs|0.3,HistGB,iter,20,-0.112,0.55,0.756
+cells vs rows: cell - dti,gross|complete|0,KNN,iter,20,-3.427,0.1,0.001
+cells vs rows: cell - dti,gross|MCAR|0.1,KNN,iter,20,0.917,0.7,0.03
+cells vs rows: cell - dti,gross|MCAR|0.3,KNN,iter,20,-0.139,0.6,0.498
+cells vs rows: cell - dti,gross|MAR|0.1,KNN,iter,20,-0.851,0.65,0.231
+cells vs rows: cell - dti,gross|MAR|0.3,KNN,iter,20,-1.712,0.45,0.097
+cells vs rows: cell - dti,gross|MNAR|0.1,KNN,iter,20,0.465,0.7,0.09
+cells vs rows: cell - dti,gross|MNAR|0.3,KNN,iter,20,-0.405,0.45,0.701
+cells vs rows: cell - dti,gross|MNARobs|0.3,KNN,iter,20,-0.495,0.55,0.701
+cells vs rows: cell - dti,gross|complete|0,LogReg,iter,20,-2.504,0.35,0.03
+cells vs rows: cell - dti,gross|MCAR|0.1,LogReg,iter,20,-1.481,0.5,0.546
+cells vs rows: cell - dti,gross|MCAR|0.3,LogReg,iter,20,-0.615,0.35,0.409
+cells vs rows: cell - dti,gross|MAR|0.1,LogReg,iter,20,-1.091,0.45,0.475
+cells vs rows: cell - dti,gross|MAR|0.3,LogReg,iter,20,-1.004,0.3,0.189
+cells vs rows: cell - dti,gross|MNAR|0.1,LogReg,iter,20,-0.295,0.5,0.737
+cells vs rows: cell - dti,gross|MNAR|0.3,LogReg,iter,20,-0.396,0.35,0.546
+cells vs rows: cell - dti,gross|MNARobs|0.3,LogReg,iter,20,-0.919,0.45,0.498
+cells vs rows: cell - dti,gross|complete|0,RandomForest,iter,20,-0.464,0.35,0.097
+cells vs rows: cell - dti,gross|MCAR|0.1,RandomForest,iter,20,-0.233,0.45,0.596
+cells vs rows: cell - dti,gross|MCAR|0.3,RandomForest,iter,20,-0.246,0.55,0.794
+cells vs rows: cell - dti,gross|MAR|0.1,RandomForest,iter,20,-0.136,0.45,0.475
+cells vs rows: cell - dti,gross|MAR|0.3,RandomForest,iter,20,-0.39,0.35,0.165
+cells vs rows: cell - dti,gross|MNAR|0.1,RandomForest,iter,20,-0.339,0.35,0.126
+cells vs rows: cell - dti,gross|MNAR|0.3,RandomForest,iter,20,-0.557,0.5,0.277
+cells vs rows: cell - dti,gross|MNARobs|0.3,RandomForest,iter,20,-0.201,0.55,0.812
+cells vs rows: cell - dti,gross|complete|0,HistGB,mean,20,0.032,0.5,0.717
+cells vs rows: cell - dti,gross|MCAR|0.1,HistGB,mean,20,-0.207,0.4,0.231
+cells vs rows: cell - dti,gross|MCAR|0.3,HistGB,mean,20,-0.119,0.5,0.872
+cells vs rows: cell - dti,gross|MAR|0.1,HistGB,mean,20,0.297,0.65,0.409
+cells vs rows: cell - dti,gross|MAR|0.3,HistGB,mean,20,-0.403,0.3,0.123
+cells vs rows: cell - dti,gross|MNAR|0.1,HistGB,mean,20,-0.032,0.4,0.904
+cells vs rows: cell - dti,gross|MNAR|0.3,HistGB,mean,20,0.06,0.45,0.985
+cells vs rows: cell - dti,gross|MNARobs|0.3,HistGB,mean,20,0.193,0.55,0.729
+cells vs rows: cell - dti,gross|complete|0,KNN,mean,20,-4.348,0.1,0.001
+cells vs rows: cell - dti,gross|MCAR|0.1,KNN,mean,20,0.262,0.7,0.143
+cells vs rows: cell - dti,gross|MCAR|0.3,KNN,mean,20,-0.948,0.55,1.0
+cells vs rows: cell - dti,gross|MAR|0.1,KNN,mean,20,-1.532,0.55,0.812
+cells vs rows: cell - dti,gross|MAR|0.3,KNN,mean,20,-2.271,0.2,0.001
+cells vs rows: cell - dti,gross|MNAR|0.1,KNN,mean,20,0.129,0.6,0.261
+cells vs rows: cell - dti,gross|MNAR|0.3,KNN,mean,20,-0.689,0.45,0.43
+cells vs rows: cell - dti,gross|MNARobs|0.3,KNN,mean,20,-0.226,0.7,0.216
+cells vs rows: cell - dti,gross|complete|0,LogReg,mean,20,-2.661,0.35,0.036
+cells vs rows: cell - dti,gross|MCAR|0.1,LogReg,mean,20,-1.59,0.6,0.812
+cells vs rows: cell - dti,gross|MCAR|0.3,LogReg,mean,20,-1.043,0.4,0.498
+cells vs rows: cell - dti,gross|MAR|0.1,LogReg,mean,20,-1.762,0.4,0.189
+cells vs rows: cell - dti,gross|MAR|0.3,LogReg,mean,20,-1.126,0.35,0.147
+cells vs rows: cell - dti,gross|MNAR|0.1,LogReg,mean,20,-0.425,0.45,0.312
+cells vs rows: cell - dti,gross|MNAR|0.3,LogReg,mean,20,-0.614,0.45,0.445
+cells vs rows: cell - dti,gross|MNARobs|0.3,LogReg,mean,20,-0.635,0.5,0.498
+cells vs rows: cell - dti,gross|complete|0,RandomForest,mean,20,-0.657,0.25,0.007
+cells vs rows: cell - dti,gross|MCAR|0.1,RandomForest,mean,20,-0.34,0.45,0.616
+cells vs rows: cell - dti,gross|MCAR|0.3,RandomForest,mean,20,-0.413,0.5,0.522
+cells vs rows: cell - dti,gross|MAR|0.1,RandomForest,mean,20,-0.05,0.6,0.898
+cells vs rows: cell - dti,gross|MAR|0.3,RandomForest,mean,20,-0.14,0.5,0.841
+cells vs rows: cell - dti,gross|MNAR|0.1,RandomForest,mean,20,-0.437,0.3,0.154
+cells vs rows: cell - dti,gross|MNAR|0.3,RandomForest,mean,20,0.003,0.45,1.0
+cells vs rows: cell - dti,gross|MNARobs|0.3,RandomForest,mean,20,-0.271,0.45,0.526
+cells vs rows: cell - dti,gross|complete|0,HistGB,native,20,0.136,0.5,0.756
+cells vs rows: cell - dti,gross|MCAR|0.1,HistGB,native,20,0.107,0.5,0.622
+cells vs rows: cell - dti,gross|MCAR|0.3,HistGB,native,20,-0.263,0.4,0.295
+cells vs rows: cell - dti,gross|MAR|0.1,HistGB,native,20,0.199,0.55,0.622
+cells vs rows: cell - dti,gross|MAR|0.3,HistGB,native,20,0.024,0.35,0.784
+cells vs rows: cell - dti,gross|MNAR|0.1,HistGB,native,20,-0.117,0.55,0.956
+cells vs rows: cell - dti,gross|MNAR|0.3,HistGB,native,20,-0.053,0.5,0.869
+cells vs rows: cell - dti,gross|MNARobs|0.3,HistGB,native,20,-0.307,0.45,0.475
+cells vs rows: cell - dti,gross|complete|0,RandomForest,native,20,-0.176,0.4,0.421
+cells vs rows: cell - dti,gross|MCAR|0.1,RandomForest,native,20,0.054,0.45,0.756
+cells vs rows: cell - dti,gross|MCAR|0.3,RandomForest,native,20,-0.298,0.3,0.171
+cells vs rows: cell - dti,gross|MAR|0.1,RandomForest,native,20,-0.173,0.45,0.444
+cells vs rows: cell - dti,gross|MAR|0.3,RandomForest,native,20,-0.04,0.35,0.475
+cells vs rows: cell - dti,gross|MNAR|0.1,RandomForest,native,20,-0.039,0.45,0.779
+cells vs rows: cell - dti,gross|MNAR|0.3,RandomForest,native,20,-0.274,0.3,0.107
+cells vs rows: cell - dti,gross|MNARobs|0.3,RandomForest,native,20,-0.8,0.45,0.756
+oracle cells - oracle rows,gross|complete|0,HistGB,iter,20,0.461,0.7,0.003
+oracle cells - oracle rows,gross|MCAR|0.1,HistGB,iter,20,0.461,0.8,0.014
+oracle cells - oracle rows,gross|MCAR|0.3,HistGB,iter,20,0.128,0.6,0.409
+oracle cells - oracle rows,gross|MAR|0.1,HistGB,iter,20,0.088,0.55,0.388
+oracle cells - oracle rows,gross|MAR|0.3,HistGB,iter,20,0.128,0.5,0.841
+oracle cells - oracle rows,gross|MNAR|0.1,HistGB,iter,20,-0.064,0.55,0.841
+oracle cells - oracle rows,gross|MNAR|0.3,HistGB,iter,20,0.091,0.45,0.756
+oracle cells - oracle rows,gross|MNARobs|0.3,HistGB,iter,20,-0.12,0.5,0.784
+oracle cells - oracle rows,gross|complete|0,KNN,iter,20,-0.009,0.4,0.528
+oracle cells - oracle rows,gross|MCAR|0.1,KNN,iter,20,1.305,0.85,0.001
+oracle cells - oracle rows,gross|MCAR|0.3,KNN,iter,20,0.198,0.65,0.202
+oracle cells - oracle rows,gross|MAR|0.1,KNN,iter,20,0.957,0.9,0.0
+oracle cells - oracle rows,gross|MAR|0.3,KNN,iter,20,0.098,0.55,0.52
+oracle cells - oracle rows,gross|MNAR|0.1,KNN,iter,20,0.711,0.75,0.019
+oracle cells - oracle rows,gross|MNAR|0.3,KNN,iter,20,0.399,0.65,0.07
+oracle cells - oracle rows,gross|MNARobs|0.3,KNN,iter,20,-0.283,0.45,0.165
+oracle cells - oracle rows,gross|complete|0,LogReg,iter,20,0.237,0.65,0.015
+oracle cells - oracle rows,gross|MCAR|0.1,LogReg,iter,20,0.281,0.65,0.048
+oracle cells - oracle rows,gross|MCAR|0.3,LogReg,iter,20,0.34,0.65,0.03
+oracle cells - oracle rows,gross|MAR|0.1,LogReg,iter,20,0.542,0.8,0.007
+oracle cells - oracle rows,gross|MAR|0.3,LogReg,iter,20,0.264,0.55,0.198
+oracle cells - oracle rows,gross|MNAR|0.1,LogReg,iter,20,0.183,0.65,0.052
+oracle cells - oracle rows,gross|MNAR|0.3,LogReg,iter,20,0.141,0.45,0.748
+oracle cells - oracle rows,gross|MNARobs|0.3,LogReg,iter,20,-0.088,0.5,0.729
+oracle cells - oracle rows,gross|complete|0,RandomForest,iter,20,-0.055,0.5,0.968
+oracle cells - oracle rows,gross|MCAR|0.1,RandomForest,iter,20,0.225,0.55,0.312
+oracle cells - oracle rows,gross|MCAR|0.3,RandomForest,iter,20,0.368,0.65,0.231
+oracle cells - oracle rows,gross|MAR|0.1,RandomForest,iter,20,0.04,0.55,0.756
+oracle cells - oracle rows,gross|MAR|0.3,RandomForest,iter,20,0.271,0.55,0.255
+oracle cells - oracle rows,gross|MNAR|0.1,RandomForest,iter,20,-0.013,0.45,0.97
+oracle cells - oracle rows,gross|MNAR|0.3,RandomForest,iter,20,-0.045,0.45,0.968
+oracle cells - oracle rows,gross|MNARobs|0.3,RandomForest,iter,20,-0.001,0.4,0.955
+oracle cells - oracle rows,gross|complete|0,HistGB,mean,20,0.312,0.7,0.177
+oracle cells - oracle rows,gross|MCAR|0.1,HistGB,mean,20,0.093,0.6,0.455
+oracle cells - oracle rows,gross|MCAR|0.3,HistGB,mean,20,0.423,0.75,0.03
+oracle cells - oracle rows,gross|MAR|0.1,HistGB,mean,20,0.358,0.6,0.076
+oracle cells - oracle rows,gross|MAR|0.3,HistGB,mean,20,0.34,0.55,0.177
+oracle cells - oracle rows,gross|MNAR|0.1,HistGB,mean,20,-0.027,0.55,0.881
+oracle cells - oracle rows,gross|MNAR|0.3,HistGB,mean,20,0.294,0.6,0.368
+oracle cells - oracle rows,gross|MNARobs|0.3,HistGB,mean,20,0.062,0.6,0.812
+oracle cells - oracle rows,gross|complete|0,KNN,mean,20,0.016,0.4,0.732
+oracle cells - oracle rows,gross|MCAR|0.1,KNN,mean,20,1.523,0.85,0.001
+oracle cells - oracle rows,gross|MCAR|0.3,KNN,mean,20,0.477,0.75,0.048
+oracle cells - oracle rows,gross|MAR|0.1,KNN,mean,20,0.958,0.85,0.0
+oracle cells - oracle rows,gross|MAR|0.3,KNN,mean,20,0.051,0.65,0.368
+oracle cells - oracle rows,gross|MNAR|0.1,KNN,mean,20,0.674,0.8,0.006
+oracle cells - oracle rows,gross|MNAR|0.3,KNN,mean,20,0.25,0.6,0.07
+oracle cells - oracle rows,gross|MNARobs|0.3,KNN,mean,20,0.026,0.6,0.596
+oracle cells - oracle rows,gross|complete|0,LogReg,mean,20,0.116,0.5,0.298
+oracle cells - oracle rows,gross|MCAR|0.1,LogReg,mean,20,0.525,0.75,0.019
+oracle cells - oracle rows,gross|MCAR|0.3,LogReg,mean,20,0.508,0.7,0.058
+oracle cells - oracle rows,gross|MAR|0.1,LogReg,mean,20,0.149,0.65,0.202
+oracle cells - oracle rows,gross|MAR|0.3,LogReg,mean,20,0.092,0.55,0.157
+oracle cells - oracle rows,gross|MNAR|0.1,LogReg,mean,20,0.01,0.6,0.841
+oracle cells - oracle rows,gross|MNAR|0.3,LogReg,mean,20,-0.103,0.45,0.546
+oracle cells - oracle rows,gross|MNARobs|0.3,LogReg,mean,20,0.047,0.55,0.784
+oracle cells - oracle rows,gross|complete|0,RandomForest,mean,20,0.014,0.55,0.398
+oracle cells - oracle rows,gross|MCAR|0.1,RandomForest,mean,20,0.105,0.6,0.368
+oracle cells - oracle rows,gross|MCAR|0.3,RandomForest,mean,20,0.103,0.45,0.927
+oracle cells - oracle rows,gross|MAR|0.1,RandomForest,mean,20,0.085,0.5,0.748
+oracle cells - oracle rows,gross|MAR|0.3,RandomForest,mean,20,-0.025,0.35,0.622
+oracle cells - oracle rows,gross|MNAR|0.1,RandomForest,mean,20,-0.023,0.4,0.881
+oracle cells - oracle rows,gross|MNAR|0.3,RandomForest,mean,20,-0.071,0.5,0.648
+oracle cells - oracle rows,gross|MNARobs|0.3,RandomForest,mean,20,0.243,0.7,0.053
+oracle cells - oracle rows,gross|complete|0,HistGB,native,20,0.271,0.6,0.07
+oracle cells - oracle rows,gross|MCAR|0.1,HistGB,native,20,0.246,0.65,0.189
+oracle cells - oracle rows,gross|MCAR|0.3,HistGB,native,20,0.495,0.65,0.133
+oracle cells - oracle rows,gross|MAR|0.1,HistGB,native,20,0.307,0.7,0.083
+oracle cells - oracle rows,gross|MAR|0.3,HistGB,native,20,0.552,0.75,0.001
+oracle cells - oracle rows,gross|MNAR|0.1,HistGB,native,20,0.055,0.65,0.571
+oracle cells - oracle rows,gross|MNAR|0.3,HistGB,native,20,-0.006,0.45,0.956
+oracle cells - oracle rows,gross|MNARobs|0.3,HistGB,native,20,0.352,0.7,0.09
+oracle cells - oracle rows,gross|complete|0,RandomForest,native,20,0.108,0.7,0.245
+oracle cells - oracle rows,gross|MCAR|0.1,RandomForest,native,20,0.221,0.6,0.294
+oracle cells - oracle rows,gross|MCAR|0.3,RandomForest,native,20,0.226,0.6,0.231
+oracle cells - oracle rows,gross|MAR|0.1,RandomForest,native,20,0.288,0.6,0.154
+oracle cells - oracle rows,gross|MAR|0.3,RandomForest,native,20,0.155,0.55,0.475
+oracle cells - oracle rows,gross|MNAR|0.1,RandomForest,native,20,0.291,0.6,0.145
+oracle cells - oracle rows,gross|MNAR|0.3,RandomForest,native,20,-0.113,0.45,0.687
+oracle cells - oracle rows,gross|MNARobs|0.3,RandomForest,native,20,-0.113,0.4,0.43
+order: detect-then-impute - impute-then-detect,gross|complete|0,HistGB,iter,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,HistGB,iter,20,0.411,0.75,0.04
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,HistGB,iter,20,0.703,0.65,0.024
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,HistGB,iter,20,0.292,0.65,0.133
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,HistGB,iter,20,0.146,0.6,0.204
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,HistGB,iter,20,0.372,0.6,0.165
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,HistGB,iter,20,0.335,0.8,0.076
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,HistGB,iter,20,0.343,0.75,0.189
+order: detect-then-impute - impute-then-detect,gross|complete|0,KNN,iter,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,KNN,iter,20,0.488,0.75,0.009
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,KNN,iter,20,0.912,0.6,0.036
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,KNN,iter,20,0.02,0.55,0.648
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,KNN,iter,20,0.021,0.45,0.956
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,KNN,iter,20,0.304,0.7,0.097
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,KNN,iter,20,1.136,0.75,0.003
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,KNN,iter,20,-0.287,0.4,0.165
+order: detect-then-impute - impute-then-detect,gross|complete|0,LogReg,iter,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,LogReg,iter,20,0.344,0.7,0.016
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,LogReg,iter,20,0.806,0.8,0.011
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,LogReg,iter,20,0.143,0.6,0.52
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,LogReg,iter,20,0.406,0.65,0.136
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,LogReg,iter,20,0.352,0.7,0.025
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,LogReg,iter,20,0.737,0.65,0.076
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,LogReg,iter,20,0.257,0.6,0.251
+order: detect-then-impute - impute-then-detect,gross|complete|0,RandomForest,iter,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,RandomForest,iter,20,0.303,0.65,0.202
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,RandomForest,iter,20,1.076,0.85,0.005
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,RandomForest,iter,20,0.147,0.75,0.097
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,RandomForest,iter,20,0.281,0.6,0.165
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,RandomForest,iter,20,0.409,0.65,0.008
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,RandomForest,iter,20,0.921,0.75,0.015
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,RandomForest,iter,20,0.247,0.65,0.312
+order: detect-then-impute - impute-then-detect,gross|complete|0,HistGB,mean,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,HistGB,mean,20,-0.102,0.4,0.641
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,HistGB,mean,20,-0.071,0.45,0.368
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,HistGB,mean,20,0.241,0.6,0.083
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,HistGB,mean,20,0.059,0.6,0.33
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,HistGB,mean,20,-0.091,0.45,0.33
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,HistGB,mean,20,-0.079,0.6,0.812
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,HistGB,mean,20,0.16,0.55,0.648
+order: detect-then-impute - impute-then-detect,gross|complete|0,KNN,mean,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,KNN,mean,20,0.059,0.45,0.653
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,KNN,mean,20,0.189,0.5,0.313
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,KNN,mean,20,0.039,0.45,0.653
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,KNN,mean,20,-0.017,0.45,0.784
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,KNN,mean,20,0.328,0.45,0.642
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,KNN,mean,20,0.191,0.45,0.409
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,KNN,mean,20,-0.18,0.3,0.261
+order: detect-then-impute - impute-then-detect,gross|complete|0,LogReg,mean,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,LogReg,mean,20,0.063,0.5,0.307
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,LogReg,mean,20,-0.159,0.45,0.368
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,LogReg,mean,20,-0.006,0.35,0.679
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,LogReg,mean,20,-0.058,0.5,0.643
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,LogReg,mean,20,-0.046,0.3,0.78
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,LogReg,mean,20,-0.084,0.4,0.472
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,LogReg,mean,20,0.128,0.7,0.112
+order: detect-then-impute - impute-then-detect,gross|complete|0,RandomForest,mean,20,0.0,0.0,
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.1,RandomForest,mean,20,-0.019,0.4,0.627
+order: detect-then-impute - impute-then-detect,gross|MCAR|0.3,RandomForest,mean,20,0.257,0.7,0.053
+order: detect-then-impute - impute-then-detect,gross|MAR|0.1,RandomForest,mean,20,0.085,0.5,0.571
+order: detect-then-impute - impute-then-detect,gross|MAR|0.3,RandomForest,mean,20,-0.139,0.35,0.277
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.1,RandomForest,mean,20,-0.023,0.35,0.39
+order: detect-then-impute - impute-then-detect,gross|MNAR|0.3,RandomForest,mean,20,-0.23,0.3,0.07
+order: detect-then-impute - impute-then-detect,gross|MNARobs|0.3,RandomForest,mean,20,0.23,0.5,0.295
