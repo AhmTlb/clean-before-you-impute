@@ -1,0 +1,11 @@
+{
+  "title": "Clean Before You Impute: code, protocols and results",
+  "upload_type": "software",
+  "description": "Code, pre-specified protocols and per-run results for the paper 'Clean Before You Impute: Outliers Corrupt Iterative Imputation in Incomplete Tabular Data'. Five experimental stages and a decision-rule check on 59 OpenML-CC18 datasets.",
+  "creators": [
+    {"name": "abdelmotlab, ahmed", "affiliation": "kku.edu.sa", "orcid": "0009-0008-7850-5929"}
+  ],
+  "license": "MIT",
+  "keywords": ["missing values", "imputation", "outlier detection", "data cleaning", "tabular classification", "benchmark"],
+  "access_right": "open"
+}
